@@ -1,0 +1,22 @@
+{
+    "listen": ":22000",
+    "target": "127.0.0.1:8118",
+    "key": "test",
+    "crypt": "aes",
+    "mode": "fast",
+    "mtu": 1350,
+    "sndwnd": 1024,
+    "rcvwnd": 1024,
+    "datashard": 10,
+    "parityshard": 3,
+    "dscp": 0,
+    "nocomp": false,
+    "acknodelay": true,
+    "nodelay": 1,
+    "interval": 20,
+    "resend": 2,
+    "nc": 1,
+    "sockbuf": 4194304,
+    "keepalive": 10
+}
+
